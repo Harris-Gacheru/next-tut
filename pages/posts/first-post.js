@@ -5,7 +5,7 @@ import Layout from '../../components/layout';
 
 export default function FirstPost() {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>First Post</title>
             </Head>
@@ -16,8 +16,8 @@ export default function FirstPost() {
                 width={150}
             ></Image>
 
-            <h1>First Post</h1>
+            <h1 className='text-3xl font-bold'>First Post</h1>
             <h2><Link href='/'>Back home</Link></h2>
-        </Layout>
+        </>
     )
 }
